@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
     <header>
         <div class="top-container">
             <nav class="navbar">
@@ -28,24 +27,47 @@
             <img src="images/mountain.png" alt="">
         </div>
     </header>
-
     <main>
-    <div class="contact">
-        <form name="contact" method="POST" data-netlify="true">
-            <p>
-                <label>Your Name: <input type="text" name="name" /></label>
-            </p>
-            <p>
-                <label>Your Email: <input type="email" name="email" /></label>
-            </p>
-               <p>
-                   <label id="message">Message: <textarea name="message"></textarea></label>
-               </p>
-               <p>
-                   <button class="btn" type="submit">Send</button>
-               </p>
+        <div class="contact">
+            <form name="contact" method="POST" data-netlify="true">
+                <label>Your Name: <input type="text" name="name" /></label><br>
+                <label>Your Email: <input type="email" name="email" /></label><br>
+                <label>Birthdate: <input type="date" name="Birthdate" /></label><br>
+                <div class="radio-toolbar"> Gender: <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+                <p>How did you find this online resume?<br>
+                    <input type="checkbox" id="option1" name="option1" value="GitHub">
+                    <label for="option1"> GitHub</label>
+                    <br>
+                    <input type="checkbox" id="option2" name="option2" value="LinkedIn">
+                    <label for="option2"> LinkedIn</label>
+                    <br>
+                    <input type="checkbox" id="option3" name="option3" value="Search">
+                    <label for="option3"> Search Engine</label>
+                </p>
+                <p>
+                    <label for="favcolor">Select your favorite color:</label>
+                    <input type="color" id="favcolor" name="favcolor">
+                </p>
+                <p><label id="message">Message: <textarea name="message"></textarea></label>
+                </p>
+                <p><label for="myfile">Select a file:</label>
+                    <input type="file" id="myfile" name="myfile">
+                </p>
+                <p>
+                <label for="homepage">Add your homepage:</label>
+                <input type="url" id="homepage" name="homepage">
+                 </p>
+                <br>
+                <button class="btn" type="submit">Send</button>
+                <button class="btn" input type="reset">Reset</button>
             </form>
-    </div>
+        </div>
     </main>
     <footer>
         <div class="bottom-container">
