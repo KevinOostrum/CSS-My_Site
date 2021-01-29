@@ -50,7 +50,7 @@ hr {
   position: absolute;
   top: 5px;
   right: 5px;
-  margin: 0;
+  margin: 0 0 10 0;
   padding: 0;
 }
 
@@ -70,6 +70,7 @@ hr {
 
 .middle-container {
   padding-bottom: 6rem;
+  margin: 0 0 10 0;
 }
 
 .top-cloud {
@@ -120,6 +121,7 @@ hr {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-bottom: 1rem;
 }
 
 .btn:hover {
@@ -127,15 +129,6 @@ hr {
   color: white;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
-.bottom-container {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  height: 5.5rem;
-  background-color: #66bfbf;
-  width: 100%;
 }
 
 .contact {
@@ -171,6 +164,18 @@ hr {
 .radio-toolbar input[type="radio"]:checked + label {
   background-color: rgb(78, 218, 243);
   border-color: rgb(41, 125, 139);
+}
+
+/*.middle-container {
+} */
+
+.bottom-container {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 5rem;
+  background-color: #66bfbf;
+  width: 100%;
 }
 
 #page-container {

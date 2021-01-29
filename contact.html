@@ -12,22 +12,24 @@
 </head>
 
 <body>
-    <header>
-        <div class="top-container">
-            <nav class="navbar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <img class="top-cloud" src="images/cloud.png" alt="">
-            <h1>I'm Kevin</h1>
-            <h2 class="subtitle">An aspiring Front-end web developer</h2>
-            <img class="bottom-cloud" src="images/cloud.png" alt="">
-            <img src="images/mountain.png" alt="">
-        </div>
-    </header>
-    <main>
+    <div id="page-container">
+        <header>
+            <div class="top-container">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <img class="top-cloud" src="images/cloud.png" alt="">
+                <h1>I'm Kevin</h1>
+                <h2 class="subtitle">An aspiring Front-end web developer</h2>
+                <img class="bottom-cloud" src="images/cloud.png" alt="">
+                <img src="images/mountain.png" alt="">
+            </div>
+        </header>
+        <main>
+            <div class="middle-container">
         <div class="contact">
             <form name="contact" method="POST" data-netlify="true">
                 <label>Your Name: <input type="text" name="name" /></label><br>
@@ -68,14 +70,16 @@
                 <button class="btn" input type="reset">Reset</button>
             </form>
         </div>
-    </main>
-    <footer>
-        <div class="bottom-container">
-            <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-            <a class="footer-link" href="https://twitter.com/">Twitter</a>
-            <p id="copyright">© 2021 Kevin Oostrum.</p>
-        </div>
-    </footer>
+    </div>
+        </main>
+<footer>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <p id="copyright">© 2021 Kevin Oostrum.</p>
+    </div>
+</footer>
+</div>
 </body>
 
 </html>
